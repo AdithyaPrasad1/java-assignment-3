@@ -7,4 +7,4 @@ for (var i=1;i<=limit;i++){
         sum=sum+i;
         console.log(i)
     }
-}
+}console.log("sum :",sum)
