@@ -18,7 +18,7 @@ let operator=readlinesync.question('Select operator : ');
 operator=parseInt(operator);
 
 if (operator>4 || operator==0){
-    console.log('Select a valid option')
+    console.log('Select a valid option');
 
 }else{
 
@@ -34,16 +34,16 @@ switch(operator){
         result= addition(num1,num2);
         break;
     case 2:
-        result=subtraction(num1,num2)
+        result=subtraction(num1,num2);
         break;
     case 3:
         result= multiplication(num1,num2);
         break;
     case 4:
-        result=divition(num1,num2)
+        result=divition(num1,num2);
         break;
     default:
-        console.log('invalid entry')
+        console.log('invalid entry');
 }console.log(result);
 
 }
